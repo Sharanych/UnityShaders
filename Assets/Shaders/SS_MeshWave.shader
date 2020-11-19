@@ -45,7 +45,8 @@
             // put more per-instance properties here
         UNITY_INSTANCING_BUFFER_END(Props)
 
-        void vert(inout appdata_full data) {
+        void vert(inout appdata_full data) 
+        {
             float4 mPos = data.vertex;
 			mPos.y += sin(data.vertex.x * _WFrequency + _Time.y * _WSpeed) * _WAmplitude;
 			

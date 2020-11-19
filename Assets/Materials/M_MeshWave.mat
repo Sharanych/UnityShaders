@@ -71,7 +71,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
-    - _WAmplitude: 0.256
+    - _WAmplitude: 0.563
     - _WFrequency: 1.42
     - _WSpeed: 0.53
     - _ZWrite: 1
